@@ -1,0 +1,42 @@
+<script>
+  export let nickname;
+  export let name;
+</script>
+<style>
+  .Profile-content {
+    display: flex;
+    align-items: center;
+  }
+  .Profile-avatar img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+  }
+  .Profile-info {
+    margin: 0 0 0 0.5em;
+  }
+  .Profile-info h2 {
+    font-size: 14px;
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+  .Profile-info span {
+    font-size: 12px;
+    font-weight: normal;
+  }
+</style>
+
+<div class="Profile">
+
+  <div clas="Profile-content">
+    <div class="Profile-avatar">
+      <img src="https://image.freepik.com/vector-gratis/limpiador-productos-limpieza-servicio-limpieza_18591-52057.jpg" alt="Falta llenar">
+    </div>
+    <div class="Profile-info">
+      <h2>user</h2>
+      <!-- {nicname} -->
+      <span> Name Lastname </span>
+    </div>
+  </div>
+</div>
